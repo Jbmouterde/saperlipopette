@@ -12,14 +12,30 @@
   <header>
     <h1> Jeu de MoutLaMenace </h1>
     <button type="button" class="btn btn-default btn-lg">
-      <span  aria-hidden="true"></span> START
+      <span  aria-hidden="true"></span> ENTER THE GAME
     </button>
   </header>
 
-  <div class="border truc"> 
-    
-    <img src="https://media.giphy.com/media/Xn2TpDGEEl2O4/giphy.gif">
+  <div class="border cache2"> 
+    <canvas class="first-canvas" width="1000" height="530"></canvas>
+    <canvas id="canvas" width="1000" height="530"></canvas>
+    <!-- <img src="https://media.giphy.com/media/Xn2TpDGEEl2O4/giphy.gif"> -->
   </div>
+  <div class="instructions cache1">
+    <h1> RULES </h1>
+    <p> Don't die</p>
+    <p> Escape the ennemy</p>
+    <p> Bring back the treassure on time </p> 
+    <p> Movement : L, R, T, B</p>
+    <img src="http://www.formettic.be/Module1/init/web/res/touche%20FLECHES.jpg">
+    <button type="button" class="btn btn-default btn-lg posititonBtn">
+      <span  aria-hidden="true"></span> START THE GAME
+    </button>
+    <h1> INSTRUCTIONS </h1>
+    
+    <p> In a limited time, you have to bring back the "treassure" to your home while dodging every ennemies in your way </p> 
+  </div>
+ 
   <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
